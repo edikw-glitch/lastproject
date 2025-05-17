@@ -10,12 +10,12 @@ def index():
 
 
 @app.route("/ghost")
-def page1():
+def ghost():
     return render_template("ghost.html")
 
 
 @app.route("/item")
-def page2():
+def item():
     return render_template("item.html")
 
 
